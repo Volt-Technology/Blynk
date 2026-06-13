@@ -1,14 +1,14 @@
-#define BLYNK_TEMPLATE_ID "TMPL6ILcrPVFK"
-#define BLYNK_TEMPLATE_NAME "sc"
-#define BLYNK_AUTH_TOKEN "lbouyw8bVAMJ6Mp_-WSO8WOpP0hxfVqb"  
+#define BLYNK_TEMPLATE_ID "ID KAMU"
+#define BLYNK_TEMPLATE_NAME "NAMA TEMPLATE KAMU"
+#define BLYNK_AUTH_TOKEN "Token Kamu"  
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 const int led = 19;
 
-char ssid[] = "KOS KEJAWAN 24"; 
-char pass[] = "boardinghouse";
+char ssid[] = "USENAME KAMU"; 
+char pass[] = "PASSWORD KAMU";
 
 BLYNK_WRITE(V0) // Isi sesuai nilai integer kamu
 {
